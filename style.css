@@ -1,0 +1,90 @@
+* {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  color: black;
+}
+
+body {
+  margin: auto;
+  padding: 0;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: justify;
+}
+
+.navbar .container-fluid {
+  top: 0;
+  z-index: 1;
+}
+
+.navbar-nav li:hover {
+  background-color: yellow;
+  border-radius: 15px;
+}
+
+a :hover {
+  color: blue;
+}
+
+.ul .li .a:hover {
+  background-color: yellow;
+}
+
+div .dropdown .btn:hover {
+  background-color: darkred !important;
+  color: white;
+}
+
+span {
+  background-color: yellow;
+  color: blue;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+.hero {
+  background-image: url("img/bgtest.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+
+img {
+  border: 7px black solid;
+  width: 100%;
+  height: 400px;
+  padding: auto;
+}
+
+h5 {
+  color: rebeccapurple;
+  font-weight: bold;
+  text-align: center;
+  justify-content: center;
+}
+
+h6 {
+  font-weight: 500;
+  text-align: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+section {
+  display: flex;
+  margin: 10px;
+}
+
+.section .coba {
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+}
+
+.section .smart {
+  display: flex;
+  float: right;
+}
