@@ -47,13 +47,14 @@ span {
   background-image: url("img/bgtest.jpg");
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   width: 100%;
   height: 100vh;
+  display: flex;
 }
 
 img {
-  border: 7px black solid;
+  border: 8px black solid;
   width: 100%;
   height: 400px;
   padding: auto;
@@ -67,7 +68,7 @@ h5 {
 }
 
 h6 {
-  font-weight: 500;
+  font-weight: 400;
   text-align: center;
   justify-content: center;
   margin: 10px;
@@ -75,13 +76,11 @@ h6 {
 
 section {
   display: flex;
-  margin: 10px;
 }
 
 .section .coba {
   display: flex;
   margin: 10px;
-  padding: 10px;
 }
 
 .section .smart {
