@@ -50,14 +50,15 @@ span:hover {
   background-position: center;
   background-repeat: no-repeat;
   background-position-y: auto;
+  background-position-x: auto;
   width: 100%;
-  height: 100vh;
+  height: 130vh;
 }
 
 img {
   border: 8px black solid;
   width: 100%;
-  height: auto;
+  height: 450px;
   margin: auto;
 }
 
