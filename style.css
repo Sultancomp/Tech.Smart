@@ -7,7 +7,7 @@
 
 body {
   margin: auto;
-  padding: none;
+  padding: auto;
   font-family: sans-serif;
   font-weight: bold;
   text-align: justify;
@@ -52,10 +52,10 @@ span:hover {
 }
 
 img {
-  border: 8px black solid;
-  width: 90% auto;
+  border: 6px black solid;
+  width: 100% auto;
   height: 400px auto;
-  margin: 15px auto;
+  margin-top: 10px auto;
 }
 
 h5 {
