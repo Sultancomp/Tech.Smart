@@ -38,7 +38,7 @@ span {
 }
 span:hover {
   background-color: cyan;
-  color: red;
+  color: #010100;
 }
 .hero {
   background-image: url("img/bgtest.jpg");
