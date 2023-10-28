@@ -21,7 +21,8 @@ body {
 }
 
 .navbar-nav li:hover {
-  background-color: greenyellow;
+  background-color: black;
+  color: bisque;
   border-radius: 15px;
 }
 
