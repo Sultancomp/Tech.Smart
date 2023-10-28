@@ -21,9 +21,9 @@ body {
 }
 
 .navbar-nav li:hover {
-  background-color: black;
+  background-color: blue;
   color: bisque;
-  border-radius: 15px;
+  border-radius: 10px;
 }
 
 .ul .li .a:hover {
@@ -60,7 +60,7 @@ img {
 }
 
 h5 {
-  color: #f1f1f1;
+  color: darkblue;
   font-weight: bolder;
   text-align: center;
   justify-content: center;
