@@ -11,7 +11,7 @@ body {
   font-family: sans-serif;
   font-weight: bold;
   text-align: justify;
-  background-color: #f1f1f1;
+  background-color: #f1f1f1, black auto;
 }
 
 .navbar .container-fluid {
@@ -31,15 +31,14 @@ body {
 }
 
 span {
-  background-color: lightgoldenrodyellow;
-  color: blue;
-  border: 5px black solid;
-  border-radius: 10px;
-  padding: 3px;
+  background-image: radial-gradient(blue, black);
+  color: white;
+  border: 10px black solid;
+  border-radius: 15px;
+  padding: 10px auto;
 }
 span:hover {
-  background-color: cyan;
-  color: #010100;
+  color: yellow;
 }
 .hero {
   background-image: url("img/bgtest.jpg");
@@ -61,7 +60,7 @@ img {
 
 h5 {
   color: darkblue;
-  font-weight: bolder;
+  font-weight: small;
   text-align: center;
   justify-content: center;
 }
