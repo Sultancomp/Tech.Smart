@@ -58,6 +58,15 @@ img {
   margin-top: 10px auto;
 }
 
+.profil {
+  background-color: black;
+}
+
+#IT:hover {
+  background-color: black;
+  color: white;
+}
+
 h5 {
   color: darkblue;
   font-weight: small;
@@ -74,7 +83,7 @@ h6 {
 
 section {
   display: block;
-  margin: 5px auto;
+  margin: 7px auto;
 }
 
 button .coba {
