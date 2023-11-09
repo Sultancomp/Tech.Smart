@@ -67,6 +67,11 @@ img {
   color: white;
 }
 
+#smart:hover {
+  background-color: black;
+  color: white;
+}
+
 h5 {
   color: darkblue;
   font-weight: small;
