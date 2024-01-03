@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
 
   <body>
@@ -48,34 +49,19 @@
               <a class="nav-link active" aria-current="page" 
              href="#Produkdigital"  style="color: white !important;">Produk Digital</a>
            </li>
-          
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"  style="color: white !important;">
-                Menu
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#IT">IT Support</a></li>
-                <li><a class="dropdown-item" href="#FAQ"> Pertanyaan(FAQ)</a></li> 
-                <li>
-                  <hr class="dropdown-divider"/>
-                 Paket produk digital
-                </li> 
-               
-                  <a class="dropdown-item" href="#">Web statis</a>
-                  <a class="dropdown-item" href="#">Web dinamis</a>
-                  <a class="dropdown-item" href="#">Fullstack</a>
-                  <a class="dropdown-item" href="#">IT suport</a>
-                  <a class="dropdown-item" href="#">kemitraan</a>
-                </li>
-              </ul>
-            </li>
           </ul>
 
+          <div class="dropdown">
+            <button class="dropbtn">Menu</button>
+            <div class="dropdown-content">
+              <a href="#faq">FAQ</a>
+              <a href="#IT">IT support</a>
+              <a href="#statis">web statis </a>
+              <a href="#dinamis"> web dinamis</a>
+              <a href="#full">Fullstack</a>
+              <a href="#media">Media</a>
+            </div>
+          </div>
           <form class="d-flex" role="search" style="padding: 10px;">
             <input
               class="form-control me-2"
@@ -109,10 +95,10 @@
     <!-- hero e -->
     
     <!--Profil--> 
-    <section class="profil d-sm-flex"> 
+    <section class="profil d-sm-flex" id="top"> 
       <div class="profil w3-animate-zoom mt-5" style="animation-delay: 1s; animation-duration: 2s;" id="us">
         <div class="w3-container m-2 p-2">
-          <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-teal w-100">VIsi perusahaan</button>
+          <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-green w-100">Visi perusahaan</button>
           <div id="id01" class="w3-modal w3-animate-opacity">
             <div class="w3-modal-content w3-card-4">
               <header class="w3-container w3-teal"> 
@@ -132,7 +118,7 @@
           </div>
         </div>  
         <div class="w3-container m-2 p-2">
-          <button onclick="document.getElementById('id02').style.display='block'" class="w3-button w3-teal w-100">Misi perusahaan</button>
+          <button onclick="document.getElementById('id02').style.display='block'" class="w3-button w3-green w-100">Misi perusahaan</button>
           <div id="id02" class="w3-modal w3-animate-opacity">
             <div class="w3-modal-content w3-card-4">
               <header class="w3-container w3-teal"> 
@@ -158,7 +144,7 @@
         </div>
         
         <div class="w3-container m-2 p-2">
-          <button onclick="document.getElementById('id04').style.display='block'" class="w3-button w3-teal w-100">Profil Perusahaan</button>
+          <button onclick="document.getElementById('id04').style.display='block'" class="w3-button w3-green w-100">Profil Perusahaan</button>
           <div id="id04" class="w3-modal w3-animate-opacity">
             <div class="w3-modal-content w3-card-4">
               <header class="w3-container w3-teal"> 
@@ -179,7 +165,7 @@
         </div>
 
         <div class="w3-container m-2 p-2">
-          <button onclick="document.getElementById('id03').style.display='block'" class="w3-button w3-teal w-100">Nilai perusahaan</button>
+          <button onclick="document.getElementById('id03').style.display='block'" class="w3-button w3-green w-100">Nilai perusahaan</button>
           <div id="id03" class="w3-modal w3-animate-opacity">
             <div class="w3-modal-content w3-card-4">
               <header class="w3-container w3-teal"> 
@@ -204,7 +190,7 @@
         </div>
 
         <div class="w3-container m-2 p-2">
-          <button onclick="document.getElementById('id05').style.display='block'" class="w3-button w3-teal w-100">BisnisPlan perusahaan</button>
+          <button onclick="document.getElementById('id05').style.display='block'" class="w3-button w3-green w-100">BisnisPlan perusahaan</button>
           <div id="id05" class="w3-modal w3-animate-opacity">
             <div class="w3-modal-content w3-card-4">
               <header class="w3-container w3-teal"> 
@@ -225,7 +211,7 @@
           </div>
         </div>
         <div class="w3-container m-2 p-2">
-          <button onclick="document.getElementById('id06').style.display='block'" class="w3-button w3-teal w-100">Galery Perusahaan</button>
+          <button onclick="document.getElementById('id06').style.display='block'" class="w3-button w3-green w-100">Galery Perusahaan</button>
           <div id="id06" class="w3-modal w3-animate-opacity">
             <div class="w3-modal-content w3-card-4">
               <header class="w3-container w3-teal"> 
@@ -237,7 +223,7 @@
            
                
               </div>
-              <footer class="w3-container w3-teal">
+              <footer class="w3-container w3-aqua">
                 <p> Islam way of life</p>
               </footer>
             </div>
@@ -270,7 +256,7 @@
       <div class="grid text-center">
         <div class="g-col-2">
           <div class="w3-container">
-            <h4 class="w3-center w3-animate-left" style=" text-align: center; animation-duration: 10s;"> <b><span> IT suport<i class="bi bi-check2-circle" style="color: white;"></span></i></b></h4>
+            <h4 class="w3-center w3-animate-left m-5" style=" text-align: center; animation-duration: 10s;"> <b><span> IT suport<i class="bi bi-check2-circle" style="color: white;"></span></i></b></h4>
           </div>
           <h6><strong>Adaptasi dan inovasi</strong> adalah kunci untuk masa depan yang lebih baik</h6>
           <div class="accordion accordion-flush" id="accordionFlushExample">
@@ -371,16 +357,16 @@
       </div>  
     </section> 
 <!--IT support-->
-<h5 class="w3-center mt-5" style=" text-align: center;">
+<h5 class="w3-center m-5" style=" text-align: center;">
   <span><b>Kemitraan <i class="bi bi-cpu-fill" style="color:white "></i></b></span></h5>
 <h6>IoT (internet of thing) merupakan era kolaborasi bukan kompetisi.
 Salam Sukses mulia Bersama Islam.</h6>
 <!-- smart s -->
   <section class="flex-container t-5 d-sm-flex" id="smart">
-    <div class="container">
+    <div class="container m-2">
       <div class="row m-1">
         <div class="col">
-          <h4 class="mb-4"><b><span><i class="bi bi-terminal-plus" style="color:white;"></i> Software </i></span></b></h4>
+          <h4 class="m-4"><b><span><i class="bi bi-terminal-plus" style="color:white;"></i> Software </i></span></b></h4>
           <div class="accordion accordion-flush" id="accordionFlushExample">
             <div class="accordion-item ">
               <h2 class="accordion-header text-bg-dark p-1">
@@ -496,10 +482,10 @@ Salam Sukses mulia Bersama Islam.</h6>
       </div> 
     </div>
      
-    <div class="container">
+    <div class="container m-2">
       <div class="row m-1">
         <div class="col">
-          <h4 class="mb-4"><b><span><i class="bi bi-wrench-adjustable-circle-fill"></i>Hardware </span></b></h4>
+          <h4 class="m-4"><b><span><i class="bi bi-wrench-adjustable-circle-fill"></i>Hardware </span></b></h4>
           <div class="accordion accordion-flush" id="accordionFlushExample">
             <div class="accordion-item">
                 <h2 class="accordion-header text-bg-dark p-1">
@@ -548,6 +534,9 @@ Salam Sukses mulia Bersama Islam.</h6>
     </div>
   </section>
 <!-- smart e -->
+<div class="w3-container">
+  <h4 class="w3-center w3-animate-left m-5" style=" text-align: center; animation-duration: 10s;"> <b><span> Contoh Produk Digital </span></b></h4>
+</div>
 <!--Produk digital-->
       <section id="Produkdigital">
         <div class="card-group mt-3 mb-3">
@@ -608,8 +597,8 @@ Salam Sukses mulia Bersama Islam.</h6>
           </div>
           <div class="card bg-black ">
             <div class="card-body text-center">
-              <h5 class="w3-text-white fw-bold">Web UMKM</h5>
-              <img src="img/web umkm.png" alt="Avatar" style="width: 80%;" />
+              <h5 class="w3-text-white fw-bold">Web Pesantren</h5>
+              <img src="img/MAI.jpg" alt="Avatar" style="width: 80%;" />
               <div class="w3-section">
                 <button class="w3-button w3-green m-4">Contoh</button>
                 <button class="w3-button w3-red m-4">Deskripsi</button>
@@ -642,9 +631,9 @@ Salam Sukses mulia Bersama Islam.</h6>
           </div>
         </div>
       </section>
-      <section class="FAQ" id="FAQ">
-        <div class="w3-container">
-          <h5 class="w3-center" style=" text-align: center;"><span> Pertanyaan Umum (FAQ) <i class="bi bi-question-octagon-fill w3-black"></i></span></h5>
+      <section class="FAQ" id="faq">
+        <div class="w3-container m-3">
+          <h5 class="w3-center" style=" text-align: center;"><span><b>Pertanyaan Umum </b> (FAQ) <i class="bi bi-question-octagon-fill w3-black"></i></span></h5>
         </div>
         <div class="accordion accordion-flush" id="accordionFlushExample">
           <div class="accordion-item">
@@ -968,11 +957,11 @@ Salam Sukses mulia Bersama Islam.</h6>
         </div>
       </section>
       <div class="paket" >
-        <h5 class="w3-center" style=" text-align: center;"><span> Paket Produk digital<i class="bi bi-check2-circle" style="color: white;"></span></i></h5>
+        <h5 class="w3-center m-5" style=" text-align: center;"><span><b> Paket Produk digital</b><i class="bi bi-check2-circle" style="color: white;"></span></i></h5>
       </div>
       <section class="flex-container grid-container">
         <div class="container accordion accordion-flush " id="accordionFlushExample">
-          <H5>Website statis</H5>
+          <H5 id="statis">Website statis</H5>
           <div class="accordion-item">
             <h2 class="accordion-header">
               <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOnx" aria-expanded="false" aria-controls="collapseOnx">
@@ -1041,7 +1030,7 @@ Salam Sukses mulia Bersama Islam.</h6>
         </div>
 
         <div class="container accordion accordion-flush " id="accordionFlushExample">
-          <H5>Website dinamis</H5>
+          <H5 id="dinamis">Website dinamis</H5>
           <div class="accordion-item">
             <h2 class="accordion-header">
               <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOny" aria-expanded="false" aria-controls="collapseOny">
@@ -1095,7 +1084,7 @@ Salam Sukses mulia Bersama Islam.</h6>
         </div>
           
         <div class="container accordion accordion-flush " id="accordionFlushExample">  
-          <H5>Fullstack</H5>
+          <H5 id="full">Fullstack</H5>
           <div class="accordion-item">
             <h2 class="accordion-header">
               <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsez" aria-expanded="false" aria-controls="collapsez">
@@ -1153,18 +1142,25 @@ Salam Sukses mulia Bersama Islam.</h6>
           </div>
         </div>
       </section>
+      <a href="#top"><b style="color: blue;">kembali ke atas</b></a>
 <!--Produk digital-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
     </script>
   </body>
 <!-- IT s -->
-  <footer style="border-top:10px black solid; background-color: black ;">
+  <footer style="border-top:10px black solid; background-color: black ;" id="media">
+    
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-linkedin"></a>
+<a href="#" class="fa fa-youtube"></a>
+<a href="#" class="fa fa-instagram"></a>
     <div id="copyright">
       <div class="copyright pb-3">
         <p style="text-align: center; margin: 30px auto;"><b style="color: yellow">
-        <b style="color: white">Design by</b> Khil4fah 
-       advertising &copy; 2022 Sultan Comp. <br>
+        <b style="color: white">Design by</b> Sultan-tech
+       advertising &copy; 2022 <br>
        <b style="color: white"> All rights reserved.</b></p>
       </div>
     </div>
